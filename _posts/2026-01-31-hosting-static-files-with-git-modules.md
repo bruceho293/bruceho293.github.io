@@ -1,6 +1,7 @@
 ---
-title: "Hosting Static website from another repo with Git Submodules"
 layout: post
+title: "Hosting Static website from another repo with Git Submodules"
+date: "2026-01-31 20:07:00"
 categories: frontend
 tag: [git, web]
 ---
@@ -21,4 +22,4 @@ git pull
 # Result
 Now you can access the game through GitHub page from here
 
-👉 [Open One-Math-Game](../../assets/one-math-game/index.html)
+👉 [Open One-Math-Game](/assets/one-math-game/index.html)
