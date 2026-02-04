@@ -24,5 +24,5 @@ Along this stack, I also improve myself with different languages and tools throu
 3. **Languages**: Python, Dart, JavaScript, SQL
 
 # Projects
-1. [**one-math-game**](https://github.com/bruceho293/one-math-game) - One Math Game is a game on web that I made on Glitch using HTML, CSS and JavaScript. The ideal purpose of the game is to boost your focus in the early morning by solving quick maths. With the Glitch policy changes, I will look to other alternative to host the site for everyone to try out.
+1. [**one-math-game**](https://github.com/bruceho293/one-math-game) - One Math Game is a game on web that I made on Glitch using HTML, CSS and JavaScript. The ideal purpose of the game is to boost your focus in the early morning by solving quick maths. With the Glitch policy changes, I will look to other alternative to host the site for everyone to try out. [**See the demo**](/assets/one-math-game/index.html) 
 2. [**LTXP Frontend**](https://github.com/bruceho293/ltxp-frontend): Frontend UI for Laptop Specs Price using React. The purpose of this project is to make a more reliable and appealing UI that would connect to the Django backend server.
