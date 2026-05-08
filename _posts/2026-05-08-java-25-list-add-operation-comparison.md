@@ -84,7 +84,7 @@ For the Map value, I generate a simple Map object
 Map<String, String> map = Map.of("id", "1", "sessionId", UUID.randomUUID().toString());
 ```
 
-## Coparision Result
+## Comparision Result
 ### Data Type - Integer
 
 | Implementation | 1 Element (ns) | 1,000 Elements (ns) | 1,000,000 Elements (ns) |
