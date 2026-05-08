@@ -109,5 +109,5 @@ Map<String, String> map = Map.of("id", "1", "sessionId", UUID.randomUUID().toStr
 | **LinkedList** | 200 | 34,800 | 9,151,200 |
 | **Stack** | 100 | 35,550 | 21,531,700 |
 
-# Conclusion
+## Conclusion
 It seems in this context, ArrayList remains the optimal solution when using with the List interface. In the future I might cover other operations but for now, please excuse me as I will dive into more in the `ArrayList` implementation.
