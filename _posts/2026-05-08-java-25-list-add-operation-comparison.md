@@ -2,7 +2,7 @@
 layout: post
 title: "Java 25 - List Add operation comparision"
 description: "Comparison in add operation between ArrayList and other implementations"
-date: "2026-05-08 15:20:00"
+date: "2026-05-08 15:15:00"
 categories: backend
 tag: [java]
 ---

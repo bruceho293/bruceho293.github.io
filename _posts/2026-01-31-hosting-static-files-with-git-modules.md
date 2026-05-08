@@ -20,7 +20,7 @@ git pull
 ```
 4. After the changes are pull, I need to make sure I pushed the changes to make it visible in the GitHub Pages.
 
-##s Result
+## Result
 Now you can access the game through GitHub page from here
 
 👉 [Open One-Math-Game](/assets/one-math-game/index.html)
