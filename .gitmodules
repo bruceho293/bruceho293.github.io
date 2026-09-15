@@ -6,3 +6,6 @@
 	path = assets/one-math-game
 	url = https://github.com/bruceho293/one-math-game.git
   branch = main
+[submodule "assets/numbrace-web"]
+	path = assets/numbrace-web
+	url = https://github.com/bruceho293/numbrace-web.git

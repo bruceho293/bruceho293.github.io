@@ -1,43 +1,30 @@
-# Bruce Ho Chirpy Starter
+# bruceho293.github.io
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+Personal site for [Gia Huan (Bruce) Ho](https://www.linkedin.com/in/huangiaho), a software developer. Live at [bruceho293.github.io](https://bruceho293.github.io).
 
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders
-`_data`, `_layouts`, `_includes`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file
-from the theme's gem. If you have ever installed this theme gem, you can use the command
-`bundle info --path jekyll-theme-chirpy` to locate these files.
+The blog covers experiments and notes from work and side projects. Current list contains the following from latest to oldest:
+- Numbrace - A casual game with Flutter and Flame about number
+- Java 25 - List Add operation comparison
+- Hosting Static website from another repo with Git Submodules
 
-The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being
-able to enjoy the out-of-the-box experience when using feature-rich themes.
+The site is a [Jekyll](https://jekyllrb.com/) project on the [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) theme. GitHub Actions builds it and deploys to GitHub Pages on push to `main`.
 
-To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your
-Jekyll site. The following is a list of targets:
+## Content
+
+Posts live in `_posts/`. Site settings live in `_config.yml`. The About, Archives, Categories, and Tags pages live in `_tabs/`.
+
+`assets/one-math-game` is a submodule of [one-math-game](https://github.com/bruceho293/one-math-game). After you change that repo, update the submodule here and push so GitHub Pages picks it up:
 
 ```shell
-.
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
+cd assets/one-math-game
+git pull
+cd ../..
+git add assets/one-math-game
+git commit -m "Update one-math-game"
 ```
 
-To save you time, and also in case you lose some files while copying, we extract those files/configurations of the
-latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
-
-## Usage
-
-Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
-
-## Contributing
-
-This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.
+Chirpy theme docs are in the [Chirpy wiki](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
 
 ## License
 
-This work is published under [MIT][mit] License.
-
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+The theme and starter files are [MIT](LICENSE). Post content is mine.
